@@ -42,3 +42,6 @@
 
 # CNSS
 /vendor/bin/cnss_diag              u:object_r:cnss_diag_exec:s0
+
+# USB HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.whyred       u:object_r:hal_usb_default_exec:s0
