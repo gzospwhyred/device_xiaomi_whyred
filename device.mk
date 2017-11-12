@@ -279,6 +279,7 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.qti.qseecomd.sh \
     init.qcom.post_boot.sh \
+    init.safailnet.rc \
     ueventd.rc
 
 # RCS
