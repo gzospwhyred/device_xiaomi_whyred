@@ -87,8 +87,8 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 # Doze
-#PRODUCT_PACKAGES += \
-#    XiaomiDoze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
 
 # FM
 PRODUCT_PACKAGES += \
