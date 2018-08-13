@@ -23,4 +23,7 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
+    <!-- Whether USB host mode is supported -->
+    <bool name="config_isUsbDataRoleHostSupported">false</bool>
+
 </resources>
