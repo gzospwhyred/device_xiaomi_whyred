@@ -120,8 +120,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.recomputecrop=0 \
     debug.sf.hw=1 \
     persist.hwc.enable_vds=1 \
-    persist.debug.wfd.enable=1 \
-    persist.sys.wfd.virtual=0 \
     ro.opengles.version=196610 \
     ro.sf.lcd_density=420 \
     sdm.debug.disable_skip_validate=1 \
@@ -261,11 +259,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Voice assistant
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
-
-# WFD
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.wfd.virtual=0
-    persist.debug.wfd.enable=1
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
