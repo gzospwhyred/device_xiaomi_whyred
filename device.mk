@@ -65,8 +65,7 @@ TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
-PRODUCT_PACKAGES += \
-    Camera2
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -160,8 +159,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
 # Keyhandler
-#PRODUCT_PACKAGES += \
-#    org.pixelexperience.keyhandler
+PRODUCT_PACKAGES += \
+    org.pixelexperience.keyhandler
 
 # Media
 PRODUCT_COPY_FILES += \

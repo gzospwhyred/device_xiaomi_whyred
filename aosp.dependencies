@@ -22,7 +22,7 @@
   {
     "repository": "jhenrique09/vendor_xiaomi_MiuiCamera",
     "target_path": "vendor/xiaomi/MiuiCamera",
-    "branch": "master",
+    "branch": "p",
     "remote": "github"
   }
 ]
