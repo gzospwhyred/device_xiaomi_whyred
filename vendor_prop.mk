@@ -57,7 +57,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.shutter_sound.blacklist=com.android.camera \
-    vendor.camera.aux.packagelist=com.android.camera \
+    camera.hal1.packagelist=com.whatsapp,com.instagram.android,com.snapchat.android,com.android.camera \
+    camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.qualcomm.qti.qmmi \
     persist.camera.preview.ubwc=0 \
     persist.camera.stats.test=0 \
     persist.camera.depth.focus.cb=0 \
